@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+  </head>
+
+  <body>
+    <div id="backGround">
+      <div id="app">
+
+        <h1>Currency Converter</h1><br><br>
+        <div id = "bottom">
+          <header id = "amount">Enter Amount</header><br>
+          <input id="firstInput" placeholder="Amount"></input><br><br><br>
+          <div id="line">
+            <div id="line1">
+              <header>From</header><br>
+              <select id="sel1">
+
+              </select>
+            </div>
+            <i class='fas fa-exchange-alt'></i>
+            <div id="line2">
+              <header>To</header><br>        
+              <select id="sel2">
+              </select>
+            </div>
+          
+          </div><br><br><br>
+
+          <button id ="converter" type = "submit">Get Exchange Rate</button><br><br><br>
+          <div id="finalAmount" class="text-center">
+  
+            <!-- Display the converted amount -->
+              <h4>Converted Amount :
+                  <span class="finalValue" 
+                      style="color:white;">
+                  </span>
+           
+              </h4>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
