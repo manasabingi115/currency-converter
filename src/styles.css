@@ -46,7 +46,7 @@ input,
 
 button {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -70,7 +70,7 @@ button:hover {
   border-radius: 5px;
   background-color: rgb(44, 173, 44);
   color: white;
-  font-size: 25px;
+  font-size: 17px;
   border: none;
 }
 
