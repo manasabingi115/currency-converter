@@ -31,10 +31,10 @@ body {
 }
 
 .fas {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 38px;
   color: rgba(66, 66, 82, 0.842);
-  padding: 10px;
+  padding: 20px;
 }
 
 input,
@@ -72,12 +72,12 @@ button:hover {
   color: white;
   font-size: 17px;
   border: none;
+  text-align-last: center;
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  /* font-family: -webkit-body; */
   color: black;
   margin-top: -29px;
   margin-bottom: -6px;
